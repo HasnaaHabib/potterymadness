@@ -213,7 +213,7 @@ body .menu {
 
 /* Start Footer */
 .footer {
-    background-color: #EFE2D9;
+    background-color: #E6CDB9;
     padding: 70px 0 0;
 }
 
@@ -230,7 +230,7 @@ body .menu {
 }
 
 .footer .container .box .logo {
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 25%;
     display: flex;
     flex-direction: row;
@@ -313,10 +313,9 @@ body .menu {
 }
 
 .footer .box .line .info {
-    color: rgb(7, 7, 7);
+    color: rgb(54, 52, 52);
     line-height: 1.7;
     flex: 1;
-
 }
 
 .footer .box .line .info span {
