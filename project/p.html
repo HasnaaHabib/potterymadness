@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>my page</title>
+        <!--Raender All Elements Normally-->
+        <link rel="stylesheet" href="css/normalize.css" />
+        <!--Font Awesome Library-->
+        <link rel="stylesheet" href="css/all.min.css" />
+        <!--Main Template CSS File-->
+        <link rel="stylesheet" href="css/p.css" />
+        <!--Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap"
+            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lalezar&family=Markazi+Text:wght@400..700&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1> welcome to our store </h1>
+            <div class="li">
+                <div class="logo">
+                    <div class="img"><img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAyklEQVR4nMXVrQrCYBSH8aeJX02z4BWIyWAxDC/Ay/AmzDYtJqsmLQYRTbIgVgWrNsFb8Athq9v/nAUfOPW3sfO+DP5QHqgbJmfBe8BHnDfQtb79WMSHOCoCjxT4Hn1CV6sUfEmGDil46IXb0bKS8BfQssJV4CYu9ApULPjGcBR/s1bhwAjH01HwqROfKPjRie8V/OzEtwq+c+JzBR848b6CNx3w7zLVEAuN+AJDgQF+Ag2MzUR8hKMycEmBT0DBg8cPSPp3lrxw5r4QBd9oMvPGDQAAAABJRU5ErkJggg=="><img />
+                    </div><p>Pottery Madness</p>
+                </div>
+                <div class="icons">
+                    <ul>
+                        <li><a href="#"><img
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA2UlEQVR4nO3TL09CURjH8c8mQwvtMisNg29BOsFAMsDc6MxpcEYZDIIkNl+a78OMyZ3tCQbZvedeCDq+5YTzbN89f36c+Gv0scAy3lesMEXrEIIHzND+5e8a7+g1FQxKatrYoqg7otRBFTpY15Es9oxoH4+4lElacg5XGOdK5pn1F3g5tqSIQ8ki5SCHIW5yJdPIQVXe6gSzFUGrcmG3GKlJL4LWKRF8YqIBRQTtKc70HN3YwSY6SIKvpiIRtJSD57iitOSzH/8HE5Vxhx3u/41ogo9jS05ozDfB3x0cF9hxxwAAAABJRU5ErkJggg=="></a></li>
+                        <li><a href="#"><img
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAABFklEQVR4nM3UvyvFYRTH8RfKQN0yISmZGBhY5H9gws5g9GMz3YlS/AsMdzDaiPJjJpluMSsZmO+sR+fWzfXVvd/vHe67Tk+fc87zeU5P3+9DFzHUacNe7OILnxE7kS/MAa4wFjqt19gvajyOd5R+5UuRrx+Yi2WcZ9RSfqmI+QoqGbVK1HOziIeM2iMWipj34fmPCZN+inohpvGKM+zFmvSUDjGAjfgs10N3P7Mo47Ahkp4pYjqPe7yE2WZDlOPe7zDXrvE23rCKnoyelF+Lvq1WTNOGU9xguMVBRnCLk38G+eEYF+jXHqn/EkdZDaP4wKB8DMb+5NPEBKo5jetUw6eJdGItfuu8UcuaXLzPkwWi0PvePXwDGaI7iwu3yosAAAAASUVORK5CYII="></a></li>
+                        <li><a href="#"><img
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA+0lEQVR4nO3UO0vEQBSG4cc7bmmlgmChpTdEvBWuYquInRZiJYIgWqgI3opVtlDUf+JPlIERliVOErONsG+TzDkv84VMTujSpYVpPOMJDbzgoFXAYaw3ohf8KQVZxR0G2up1PMb7sOlGW38QD1jJCxjCa6K/ji+sJZy3uM+v7GIp50EmcvrL2EkJ16ipRg1XKeEUoxVDxnGSEhaxVzFkHwspoQfNiiHNItIxZv4YMI+jImIv3jPmJI9+fKBPiYkPA1mG+zIT/8Mmzgq65xl/gMJs4yZ+EFmE+i22VGQuvuuxjHn4xKwOMRzP6AIjuIzrUO84k/GAw7XLP+Yb870aW/BEg7oAAAAASUVORK5CYII="></a></li>
+                        <li><a href="#"><img
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAu0lEQVR4nO3ToU4DURCF4a/4phZJ09UVCLCQVEBQJIjaSiQIcFCC4RUIb8AjsbxLm01WIEg6d3Y3IPonR83JPTOTO+xJcIvHVg8YG5hznA0dcojPH5NldB8JWnds9KU301+GjPAcMTY7nSRDplhFjJc4TYZc4SRiPIp28wvhOzvABxaFWuJJAe+JkLlCun7jEDe4blc3KBd4xVtQx/4zVXucVbIe4hsbfCXrIeodj9R9hDRruMMsWd+jiC0gIC5aiqB8WgAAAABJRU5ErkJggg=="></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="page_name"> <h2>TABLEWARE</h2>
+            </div>
+            <hr>
+        </header>
+        <div class="sort">
+            <div class="imgsort">
+                <img
+                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAABRUlEQVR4nGNgGAWDEYjJSmQoqas8UNPWeCyrJDeXgYGBmfa2crEau3q5v/n67ev/X79//W/pbPsqIS9bTb6BHByyjKycuxhZOXfjwzxCQnfWb9wAthSE37x9819aUe4jIX1Y8C4GTk4Zot3HzMXmU1Bc+BFm8eatW/7IqyjMZqADYJRVll/j6un+IjIu6pW0stxlBn4GQQa6AQ4GeQZWVm36JKxRMMgBJwMXqxEDH4MQ/WwU4rVQ1FB+nJyR8lrfxPC5tJJCPl0sllNRvP70+VNwfv/56+d/PWODF5g+J7LkIgWr6Wj+gBU0IBybGPeLkY3jBFklFylAXkXp4MEjh/6BLH3y7Ml/JQ3VR+ASgOaAm0FcTlnxoKa+9mMFNaWrnMJ8prS3dBSQCThHCwEGqgEO7AUIgUKAErwLbwEyWgiMAgYKAQC6vdn7MyDm7AAAAABJRU5ErkJggg==">
+            </div>
+            <p>SORT</p>
+        </div>
+
+        <div class="menu">
+            <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABI0lEQVR4nO2YUQrDIBBE56ehOXCbfpXkbM0pGo8iWAQLEkizJGPW0H3gV9y1U113EDAMw6iZFsAAwAHwAMKP4dO8PsWVzCUiBo4rCy2NGHctlEvMsHHB73gWyiXGZQluAC4r8+P3exbzLpRLTH5OG2FMMzvHJXKJybdwbxwz1/8I8MRtVxHgsuBOICJ+fywUnoqAnnj1qQhodzSf16z5qAhA+hHxn5yE7X9K8+edU00ACxOAjbAc5OmKeKyhiIezX6OO6CBVzJwnLsrs6mKY287s6ioCmF1dDLvwWF1djHVPKBPIR+jwd6FQSRGPNRSxyrtQIApQeRcKRAH2LgTlHVDpKf7sT4uO6CBV3GhPvPpU3GhLdJAqbpTtIA93o4ZhGCjOB9KqXlvKyUwtAAAAAElFTkSuQmCC">
+            <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAACXBIWXMAAAsTAAALEwEAmpwYAAAARklEQVR4nO3VsQ2AMBAEwe0I99+ACSiKhIQGjCVmpM9P+mALYIlRndW1yc1n02vg3GzgseY3APzD0OK0GIAvDS1Oi4F2dAP0mK4lc2id5wAAAABJRU5ErkJggg==">
+
+        </div>
+        <div class="images">
+            <div class="c1">
+                <div class="imag">
+                    <img src="images/mug blue.jpg">
+                </div>
+                <div class="info">
+                    BLUE |MUG<br>
+                    300.00 EGP<img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABkklEQVR4nO3XL2hWURQA8B8bfIaZBIvGGQTBsCJiE8EiwzAMMovM5trEshkE57cwTC5qkqHBMMaKYDVoUFDcFrT47U+zKAiC48ELhk/Z9p13LzzuDw6vvHO45933DvdRFEVRZLaJP/+I3zivBZZwO+hhZTWNxwF1qt3N6hJet6GRE9jJ3MgRfApYg+84lrGRs/gowBtcOMD9n/8zBf+O6r79uI7nAjzBVMYdmcecAHewmLGRFVwV4ArWMjbyBacEGMXXTI0cxQ8MCzBUFxsZoMZhx+c5vBPoPcakN4WnkQWXMSm9R5iJLHgPD6T3CpcjC07gpbSGsIuTkUXPYF36A+vb6KId/KyvKYzWI3+8ieLVjizgboMxhxf1K3VLQ6pvZBXdBuM+ruG4BlWHt1ktcAPPtMAYPmiBYWzhtBa4iQ1cTDiKGzNRn0h/7fOX9qCx2dzSi6I4jE599qpGcq8+YnQS5ofp9pk43YT5Ybb6LGQ7YX6YXp+FfEuYH6bfq/EwYX6YTr2Y3gAf+yD5RVEUhWz2AFRCrUSboydIAAAAAElFTkSuQmCC">
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA+0lEQVR4nO3UO0vEQBSG4cc7bmmlgmChpTdEvBWuYquInRZiJYIgWqgI3opVtlDUf+JPlIERliVOErONsG+TzDkv84VMTujSpYVpPOMJDbzgoFXAYaw3ohf8KQVZxR0G2up1PMb7sOlGW38QD1jJCxjCa6K/ji+sJZy3uM+v7GIp50EmcvrL2EkJ16ipRg1XKeEUoxVDxnGSEhaxVzFkHwspoQfNiiHNItIxZv4YMI+jImIv3jPmJI9+fKBPiYkPA1mG+zIT/8Mmzgq65xl/gMJs4yZ+EFmE+i22VGQuvuuxjHn4xKwOMRzP6AIjuIzrUO84k/GAw7XLP+Yb870aW/BEg7oAAAAASUVORK5CYII=">
+                </div>
+
+                <div class="imag">
+                    <img src="images/flora mug.jpg">
+                </div>
+                <div class="info">
+                    FLORAL |MUG <br>
+                    350.00 EGP<img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABkklEQVR4nO3XL2hWURQA8B8bfIaZBIvGGQTBsCJiE8EiwzAMMovM5trEshkE57cwTC5qkqHBMMaKYDVoUFDcFrT47U+zKAiC48ELhk/Z9p13LzzuDw6vvHO45933DvdRFEVRZLaJP/+I3zivBZZwO+hhZTWNxwF1qt3N6hJet6GRE9jJ3MgRfApYg+84lrGRs/gowBtcOMD9n/8zBf+O6r79uI7nAjzBVMYdmcecAHewmLGRFVwV4ArWMjbyBacEGMXXTI0cxQ8MCzBUFxsZoMZhx+c5vBPoPcakN4WnkQWXMSm9R5iJLHgPD6T3CpcjC07gpbSGsIuTkUXPYF36A+vb6KId/KyvKYzWI3+8ieLVjizgboMxhxf1K3VLQ6pvZBXdBuM+ruG4BlWHt1ktcAPPtMAYPmiBYWzhtBa4iQ1cTDiKGzNRn0h/7fOX9qCx2dzSi6I4jE599qpGcq8+YnQS5ofp9pk43YT5Ybb6LGQ7YX6YXp+FfEuYH6bfq/EwYX6YTr2Y3gAf+yD5RVEUhWz2AFRCrUSboydIAAAAAElFTkSuQmCC">
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA+0lEQVR4nO3UO0vEQBSG4cc7bmmlgmChpTdEvBWuYquInRZiJYIgWqgI3opVtlDUf+JPlIERliVOErONsG+TzDkv84VMTujSpYVpPOMJDbzgoFXAYaw3ohf8KQVZxR0G2up1PMb7sOlGW38QD1jJCxjCa6K/ji+sJZy3uM+v7GIp50EmcvrL2EkJ16ipRg1XKeEUoxVDxnGSEhaxVzFkHwspoQfNiiHNItIxZv4YMI+jImIv3jPmJI9+fKBPiYkPA1mG+zIT/8Mmzgq65xl/gMJs4yZ+EFmE+i22VGQuvuuxjHn4xKwOMRzP6AIjuIzrUO84k/GAw7XLP+Yb870aW/BEg7oAAAAASUVORK5CYII="></div>
+                <div class="imag">
+                    <img src="images/l g.jpg">
+                </div>
+                <div class="info">
+                    LIGHT GREEN WAVY |MUG <br>
+                    300.00 EGP<img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABkklEQVR4nO3XL2hWURQA8B8bfIaZBIvGGQTBsCJiE8EiwzAMMovM5trEshkE57cwTC5qkqHBMMaKYDVoUFDcFrT47U+zKAiC48ELhk/Z9p13LzzuDw6vvHO45933DvdRFEVRZLaJP/+I3zivBZZwO+hhZTWNxwF1qt3N6hJet6GRE9jJ3MgRfApYg+84lrGRs/gowBtcOMD9n/8zBf+O6r79uI7nAjzBVMYdmcecAHewmLGRFVwV4ArWMjbyBacEGMXXTI0cxQ8MCzBUFxsZoMZhx+c5vBPoPcakN4WnkQWXMSm9R5iJLHgPD6T3CpcjC07gpbSGsIuTkUXPYF36A+vb6KId/KyvKYzWI3+8ieLVjizgboMxhxf1K3VLQ6pvZBXdBuM+ruG4BlWHt1ktcAPPtMAYPmiBYWzhtBa4iQ1cTDiKGzNRn0h/7fOX9qCx2dzSi6I4jE599qpGcq8+YnQS5ofp9pk43YT5Ybb6LGQ7YX6YXp+FfEuYH6bfq/EwYX6YTr2Y3gAf+yD5RVEUhWz2AFRCrUSboydIAAAAAElFTkSuQmCC">
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA+0lEQVR4nO3UO0vEQBSG4cc7bmmlgmChpTdEvBWuYquInRZiJYIgWqgI3opVtlDUf+JPlIERliVOErONsG+TzDkv84VMTujSpYVpPOMJDbzgoFXAYaw3ohf8KQVZxR0G2up1PMb7sOlGW38QD1jJCxjCa6K/ji+sJZy3uM+v7GIp50EmcvrL2EkJ16ipRg1XKeEUoxVDxnGSEhaxVzFkHwspoQfNiiHNItIxZv4YMI+jImIv3jPmJI9+fKBPiYkPA1mG+zIT/8Mmzgq65xl/gMJs4yZ+EFmE+i22VGQuvuuxjHn4xKwOMRzP6AIjuIzrUO84k/GAw7XLP+Yb870aW/BEg7oAAAAASUVORK5CYII="></div>
+                <div class="imag">
+                    <img src="images/cris mug.jpg">
+                </div>
+                <div class="info">
+                    RED CHRISTMAS |MUG<br>
+                    250.00 EGP<img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABkklEQVR4nO3XL2hWURQA8B8bfIaZBIvGGQTBsCJiE8EiwzAMMovM5trEshkE57cwTC5qkqHBMMaKYDVoUFDcFrT47U+zKAiC48ELhk/Z9p13LzzuDw6vvHO45933DvdRFEVRZLaJP/+I3zivBZZwO+hhZTWNxwF1qt3N6hJet6GRE9jJ3MgRfApYg+84lrGRs/gowBtcOMD9n/8zBf+O6r79uI7nAjzBVMYdmcecAHewmLGRFVwV4ArWMjbyBacEGMXXTI0cxQ8MCzBUFxsZoMZhx+c5vBPoPcakN4WnkQWXMSm9R5iJLHgPD6T3CpcjC07gpbSGsIuTkUXPYF36A+vb6KId/KyvKYzWI3+8ieLVjizgboMxhxf1K3VLQ6pvZBXdBuM+ruG4BlWHt1ktcAPPtMAYPmiBYWzhtBa4iQ1cTDiKGzNRn0h/7fOX9qCx2dzSi6I4jE599qpGcq8+YnQS5ofp9pk43YT5Ybb6LGQ7YX6YXp+FfEuYH6bfq/EwYX6YTr2Y3gAf+yD5RVEUhWz2AFRCrUSboydIAAAAAElFTkSuQmCC">
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA+0lEQVR4nO3UO0vEQBSG4cc7bmmlgmChpTdEvBWuYquInRZiJYIgWqgI3opVtlDUf+JPlIERliVOErONsG+TzDkv84VMTujSpYVpPOMJDbzgoFXAYaw3ohf8KQVZxR0G2up1PMb7sOlGW38QD1jJCxjCa6K/ji+sJZy3uM+v7GIp50EmcvrL2EkJ16ipRg1XKeEUoxVDxnGSEhaxVzFkHwspoQfNiiHNItIxZv4YMI+jImIv3jPmJI9+fKBPiYkPA1mG+zIT/8Mmzgq65xl/gMJs4yZ+EFmE+i22VGQuvuuxjHn4xKwOMRzP6AIjuIzrUO84k/GAw7XLP+Yb870aW/BEg7oAAAAASUVORK5CYII=">
+                </div>
+            </div>
+            <div class="c2">
+                <div class="imag">
+
+                    <img src="images/cup b.jpg">
+                </div>
+                <div class="info">
+                    BLUE |CUP<br>
+                    150.00 EGP<img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABkklEQVR4nO3XL2hWURQA8B8bfIaZBIvGGQTBsCJiE8EiwzAMMovM5trEshkE57cwTC5qkqHBMMaKYDVoUFDcFrT47U+zKAiC48ELhk/Z9p13LzzuDw6vvHO45933DvdRFEVRZLaJP/+I3zivBZZwO+hhZTWNxwF1qt3N6hJet6GRE9jJ3MgRfApYg+84lrGRs/gowBtcOMD9n/8zBf+O6r79uI7nAjzBVMYdmcecAHewmLGRFVwV4ArWMjbyBacEGMXXTI0cxQ8MCzBUFxsZoMZhx+c5vBPoPcakN4WnkQWXMSm9R5iJLHgPD6T3CpcjC07gpbSGsIuTkUXPYF36A+vb6KId/KyvKYzWI3+8ieLVjizgboMxhxf1K3VLQ6pvZBXdBuM+ruG4BlWHt1ktcAPPtMAYPmiBYWzhtBa4iQ1cTDiKGzNRn0h/7fOX9qCx2dzSi6I4jE599qpGcq8+YnQS5ofp9pk43YT5Ybb6LGQ7YX6YXp+FfEuYH6bfq/EwYX6YTr2Y3gAf+yD5RVEUhWz2AFRCrUSboydIAAAAAElFTkSuQmCC">
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA+0lEQVR4nO3UO0vEQBSG4cc7bmmlgmChpTdEvBWuYquInRZiJYIgWqgI3opVtlDUf+JPlIERliVOErONsG+TzDkv84VMTujSpYVpPOMJDbzgoFXAYaw3ohf8KQVZxR0G2up1PMb7sOlGW38QD1jJCxjCa6K/ji+sJZy3uM+v7GIp50EmcvrL2EkJ16ipRg1XKeEUoxVDxnGSEhaxVzFkHwspoQfNiiHNItIxZv4YMI+jImIv3jPmJI9+fKBPiYkPA1mG+zIT/8Mmzgq65xl/gMJs4yZ+EFmE+i22VGQuvuuxjHn4xKwOMRzP6AIjuIzrUO84k/GAw7XLP+Yb870aW/BEg7oAAAAASUVORK5CYII="></div>
+                <div class="imag">
+
+                    <img src="images/COFEEE.jpg">
+                </div>
+                <div class="info">
+                   COFFE |CUP<br>
+                    300.00 EGP<img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABkklEQVR4nO3XL2hWURQA8B8bfIaZBIvGGQTBsCJiE8EiwzAMMovM5trEshkE57cwTC5qkqHBMMaKYDVoUFDcFrT47U+zKAiC48ELhk/Z9p13LzzuDw6vvHO45933DvdRFEVRZLaJP/+I3zivBZZwO+hhZTWNxwF1qt3N6hJet6GRE9jJ3MgRfApYg+84lrGRs/gowBtcOMD9n/8zBf+O6r79uI7nAjzBVMYdmcecAHewmLGRFVwV4ArWMjbyBacEGMXXTI0cxQ8MCzBUFxsZoMZhx+c5vBPoPcakN4WnkQWXMSm9R5iJLHgPD6T3CpcjC07gpbSGsIuTkUXPYF36A+vb6KId/KyvKYzWI3+8ieLVjizgboMxhxf1K3VLQ6pvZBXdBuM+ruG4BlWHt1ktcAPPtMAYPmiBYWzhtBa4iQ1cTDiKGzNRn0h/7fOX9qCx2dzSi6I4jE599qpGcq8+YnQS5ofp9pk43YT5Ybb6LGQ7YX6YXp+FfEuYH6bfq/EwYX6YTr2Y3gAf+yD5RVEUhWz2AFRCrUSboydIAAAAAElFTkSuQmCC">
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA+0lEQVR4nO3UO0vEQBSG4cc7bmmlgmChpTdEvBWuYquInRZiJYIgWqgI3opVtlDUf+JPlIERliVOErONsG+TzDkv84VMTujSpYVpPOMJDbzgoFXAYaw3ohf8KQVZxR0G2up1PMb7sOlGW38QD1jJCxjCa6K/ji+sJZy3uM+v7GIp50EmcvrL2EkJ16ipRg1XKeEUoxVDxnGSEhaxVzFkHwspoQfNiiHNItIxZv4YMI+jImIv3jPmJI9+fKBPiYkPA1mG+zIT/8Mmzgq65xl/gMJs4yZ+EFmE+i22VGQuvuuxjHn4xKwOMRzP6AIjuIzrUO84k/GAw7XLP+Yb870aW/BEg7oAAAAASUVORK5CYII="></div>
+                <div class="imag">
+
+                    <img src="images/dot mug.jpg">
+                </div>
+                <div class="info">
+                  DOTS |MUG <br>
+                    250.00 EGP<img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABkklEQVR4nO3XL2hWURQA8B8bfIaZBIvGGQTBsCJiE8EiwzAMMovM5trEshkE57cwTC5qkqHBMMaKYDVoUFDcFrT47U+zKAiC48ELhk/Z9p13LzzuDw6vvHO45933DvdRFEVRZLaJP/+I3zivBZZwO+hhZTWNxwF1qt3N6hJet6GRE9jJ3MgRfApYg+84lrGRs/gowBtcOMD9n/8zBf+O6r79uI7nAjzBVMYdmcecAHewmLGRFVwV4ArWMjbyBacEGMXXTI0cxQ8MCzBUFxsZoMZhx+c5vBPoPcakN4WnkQWXMSm9R5iJLHgPD6T3CpcjC07gpbSGsIuTkUXPYF36A+vb6KId/KyvKYzWI3+8ieLVjizgboMxhxf1K3VLQ6pvZBXdBuM+ruG4BlWHt1ktcAPPtMAYPmiBYWzhtBa4iQ1cTDiKGzNRn0h/7fOX9qCx2dzSi6I4jE599qpGcq8+YnQS5ofp9pk43YT5Ybb6LGQ7YX6YXp+FfEuYH6bfq/EwYX6YTr2Y3gAf+yD5RVEUhWz2AFRCrUSboydIAAAAAElFTkSuQmCC">
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA+0lEQVR4nO3UO0vEQBSG4cc7bmmlgmChpTdEvBWuYquInRZiJYIgWqgI3opVtlDUf+JPlIERliVOErONsG+TzDkv84VMTujSpYVpPOMJDbzgoFXAYaw3ohf8KQVZxR0G2up1PMb7sOlGW38QD1jJCxjCa6K/ji+sJZy3uM+v7GIp50EmcvrL2EkJ16ipRg1XKeEUoxVDxnGSEhaxVzFkHwspoQfNiiHNItIxZv4YMI+jImIv3jPmJI9+fKBPiYkPA1mG+zIT/8Mmzgq65xl/gMJs4yZ+EFmE+i22VGQuvuuxjHn4xKwOMRzP6AIjuIzrUO84k/GAw7XLP+Yb870aW/BEg7oAAAAASUVORK5CYII="></div>
+                <div class="imag">
+
+                    <img src="images/BB.jpg">
+                </div>
+                <div class="info">
+                    BLACK |MUG<br>
+                    400.00 EGP<img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABkklEQVR4nO3XL2hWURQA8B8bfIaZBIvGGQTBsCJiE8EiwzAMMovM5trEshkE57cwTC5qkqHBMMaKYDVoUFDcFrT47U+zKAiC48ELhk/Z9p13LzzuDw6vvHO45933DvdRFEVRZLaJP/+I3zivBZZwO+hhZTWNxwF1qt3N6hJet6GRE9jJ3MgRfApYg+84lrGRs/gowBtcOMD9n/8zBf+O6r79uI7nAjzBVMYdmcecAHewmLGRFVwV4ArWMjbyBacEGMXXTI0cxQ8MCzBUFxsZoMZhx+c5vBPoPcakN4WnkQWXMSm9R5iJLHgPD6T3CpcjC07gpbSGsIuTkUXPYF36A+vb6KId/KyvKYzWI3+8ieLVjizgboMxhxf1K3VLQ6pvZBXdBuM+ruG4BlWHt1ktcAPPtMAYPmiBYWzhtBa4iQ1cTDiKGzNRn0h/7fOX9qCx2dzSi6I4jE599qpGcq8+YnQS5ofp9pk43YT5Ybb6LGQ7YX6YXp+FfEuYH6bfq/EwYX6YTr2Y3gAf+yD5RVEUhWz2AFRCrUSboydIAAAAAElFTkSuQmCC">
+                    <img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsTAAALEwEAmpwYAAAA+0lEQVR4nO3UO0vEQBSG4cc7bmmlgmChpTdEvBWuYquInRZiJYIgWqgI3opVtlDUf+JPlIERliVOErONsG+TzDkv84VMTujSpYVpPOMJDbzgoFXAYaw3ohf8KQVZxR0G2up1PMb7sOlGW38QD1jJCxjCa6K/ji+sJZy3uM+v7GIp50EmcvrL2EkJ16ipRg1XKeEUoxVDxnGSEhaxVzFkHwspoQfNiiHNItIxZv4YMI+jImIv3jPmJI9+fKBPiYkPA1mG+zIT/8Mmzgq65xl/gMJs4yZ+EFmE+i22VGQuvuuxjHn4xKwOMRzP6AIjuIzrUO84k/GAw7XLP+Yb870aW/BEg7oAAAAASUVORK5CYII=">
+                </div>
+            </div>
+        </div>
+        <!-- Start Footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="box">
+                    <div class="logo">
+                        <div class="img"><img
+                                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAyklEQVR4nMXVrQrCYBSH8aeJX02z4BWIyWAxDC/Ay/AmzDYtJqsmLQYRTbIgVgWrNsFb8Athq9v/nAUfOPW3sfO+DP5QHqgbJmfBe8BHnDfQtb79WMSHOCoCjxT4Hn1CV6sUfEmGDil46IXb0bKS8BfQssJV4CYu9ApULPjGcBR/s1bhwAjH01HwqROfKPjRie8V/OzEtwq+c+JzBR848b6CNx3w7zLVEAuN+AJDgQF+Ag2MzUR8hKMycEmBT0DBg8cPSPp3lrxw5r4QBd9oMvPGDQAAAABJRU5ErkJggg==">
+                        </div><p>Pottery Madness</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <ul class="links">
+                        <div class="line">
+                            <div class="first">Customer Care</div>
+                        </div>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Terms&Conditions</a></li>
+
+                    </ul>
+                </div>
+                <div class="box">
+                    <ul class="links">
+                        <div class="line">
+                            <div class="infor">Our Socials</div>
+                        </div>
+                        <li><a href="#"><img
+                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADK0lEQVR4nO2ZO09UQRTHfwUqRB67lksrgrEQBTsfsZOYqHwCQlS+gApS+2iNhFKDX0AxsZLFZ6f2Itio2AoKCBWuOcn/JhMDu3Mfu3NN9p9McrP3nHPn7Jz3QBNN5AK9wAQwDywAG0Alo2WyTGYZGAcO1UOBQeBFhpv2XfPAQBYK7AGmgT8S/AN4AFzQ6ewnO5gsk3kReKhvVfTtKaAlqeAi8FLCfgO3gE4ah07gNrDpnE4hyUlEpvRdphUKR4Ev2ssbYG8c5mkxfgNKhEcJWNae7vsyDcouzZyOkR8cl5lt67kmIpMyn8gb7mhvFqKroteJTo107Ajn5ZNmRkM7vO8CVrTHnmqCJkRk4S8Elp0cYv65E2b0/kY1QWURWSzPqyLDej9XTdCiiNKUB5Z/RoGnwCeVHht6ntU7o9kJQ1LGlDhXw/xN3q5YE1FHAgXagEngp0fpsQrcBFoTfKdDMmyvuyL6UJI4/8Hhfw5cccoYW336bc6he58wT1Vq7TOJIiWZQnTcJz14TjlmnCTpVrJWpM05iVcxayHzk9fifRfTzCpZKzIp+oUkBZ2UiU7GQn8QRYqOY/uY02444wSAYghFRh3HTosof42EUGRWtJdJj6uS9TiEIpFtW4hNiz6fJFcvRdZF2056tEvW+v+uSKdk/fKkb5pWNWe3siMtxkI6+6hPOe2J+ZDht6gkZvSnSY6zTkIshC5RFmNkZRfGs+TT8dVbkVaV4hUVgHGUOQC8zUvR+G8Zv6TaycecPuepjI9Q0r8a8ZcViQ4rz7Trecxx7Ogk6tJYraVodVtViq96trp2dbCvXq3uYgbDh4LC6BP1KetaC/ptJGHvEmv4EHoc5INhn/ZhPPCAzgePtMdreR6Z1oL3yBQnqtglS95wN05XOqBrhU3f8X2DMAhs6Vqh35dpSprb+LKb8Oh25sL34jC2OCZmY/4ThEM/8NVJtLEvRQuOMpu6ZDFnaxS65BNbTruQOP+06M5uW8JWdD9xSQODLNrcCCarT3lixolO2zKnxNfTLo4AzzxKj6xXuV4Bp0d9w5xTfmS1aZP1UaH1OnCwHgo00QTx8Bf0wax6bwlEYQAAAABJRU5ErkJggg=="></a></li>
+                    </ul>
+                </div>
+                <div class="box">
+                    <div class="line">
+                        <div class="infor">Contact Us</div>
+                    </div>
+                    <div class="line">
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAxklEQVR4nLXSPU5CQRTF8Z+JBQ2EysRGNkLBAjQQl4EdtFhBWIsfnY0VkCiuARs6C4ydsgAyySV5xWPyMOGfnOTee2bO3GI4ETdYYBua47rq5SlW6KIe6uETkyovr9As8ZoRkt1kES8f4hazXMBfrLznA++FvoHfXMA3Lgt9uvxW6JO3yQU8op/x7/CQC2hjjVqJVwsvncnyjFHJ/B5PKnCFH7QKs1bJLMsAS5yHUj10BGd4wTh+32vMjuICX6FU/4tO6HTsAHWdI2gY1JlXAAAAAElFTkSuQmCC">
+                        <div class="info">Egypt, Luxor</div>
+                    </div>
+                    <div class="line">
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsTAAALEwEAmpwYAAABNklEQVR4nNXTuy5EURTG8d9IZlBrRaJ0GXpvgUZIxMsIhVtMK1FphulEIryDwr31AiPoELKTRWScPZeOL9nJOfus/T/rW2sv/qMGsIc6DmJvEy+4wg4mewGWcYYP7MfeKFawhmu8oYZKJ1g/TvGEE8wWxJSwiEecd4JuBGw6Agdjfx5zLbFTaGI3BxvDO5YLvtVjtWop7E8UAVPh79HXA7CEO2wVAS/Csh6ASeu4VKBUj8NMFudtgI2o+y89FRwawjFesZABHuWA6X6t/ngfwUOsGXmt5SxvBzRZTBqORqUscyrhNuJ+aSKuQM6aNtdmPBdQi+ZUu4BVY1p22gVVoqPNGK8v+z9VisweY+bLnf5ciXFKVm6i6I3o5nrU7DUyK3fh5FuppmkCUgefY6Xn1IBszf6+PgEf60klMc1AngAAAABJRU5ErkJggg==">
+                        <div class="info"> Business Hours: From 10:00 To
+                            18:00</div>
+                    </div>
+                    <div class="line">
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAYAAAA6/NlyAAAACXBIWXMAAAsTAAALEwEAmpwYAAADqUlEQVR4nO2aW4iNURSAvzNmBs24lZlcS3jBuLx4cIk39+TaPBAeMIVcXhjlXig8UG4ZxOQ6QknuTM2UYlJEJIxcIhkRg3HXrn3qb7X/c/7/+Juztzlf7ZeZtVZrdfbe67J/yJAhQ4YmTD9gOVAJfAB+AQ+AfUAR/wkdgQ3AU+BPgqWC3wJk4TALgc9JApVrLw4SA3YnCewZUAN8MvxvHI6x0hDEb+AasAjo6ZFtAxwSsvdd2tpFwA8RwHWgdwKdHOCe0BmPIxwTjl8BcgPoTRd61ThAPvDV43Q9UBhQV/3Kz0XQg7CcYcLh/SH1lwj9U1jOYuHwjJD6eUCdyM2dsZgyEXD/FGxsFjZmYjEnhLMFKdgYIWysxmIuCGdbpmBjirBRisVcEc42D6mfDVQJG2OxmArhbKcQuipXHxX6b1LcJY3GbuGwageD5u+LhnJ0HpazQjhcHECnPXDDEOwB3YRYzTjh9MYk8oV6ACCD3elK89DFUEcn4rIh2LU4xkuP8w36fJroa5h4zMdBygK2eSUu5dtETDJcPiZmuVRCJqKVmGPV679JBouAVVnqLOUimNk+/e9bcd5VinKS4SLgWz5y24Wc6pScJAY8FMGoLkjSB/jpkfkSshy1ihIR8NWA29/vkrOeFsArEcxQg1wP4LuQG42jLDWMa2MBphwvgLY4SL7hV55qkGtpOPOVPv30AN2kXNI6d4HDwERb6u85IpDHertLhury0it7Tr9SjAF2Gca4ct0EupNmmhleFfwahFVJAgqyXgPdSDOjhFPfgF4GOXW+94QIrk4M/r15P+x4KXKOC6eqfM6cCnqd4X0qXo2pycgCz6+YrY9Ng5DdRprpALwXTi1LIK8e39YDp/X5nexTk8eZZnitTPuD3FzhlMq/AyO0v8+w5buSRmLAWeHUI6BdRPbz9Nuy1/61dM/GCvVN6nXqkj6LUdBX1+Re+ypHp5WRhpy7I+JvS7y2z2ABpYZbWN3OUZCjh/hxu6ras4KDhqCjejyr8dhUH85YQXNdM/8x5FBVoaVKa3GOn2AReYYHNLXOp3h7ZxneqMJ+idAoXVW1IeiXunEIc3ZlsL8izvWRoVrEIz41c0WSz57i2/icQXcrFhPTva5MWfFf6iQwQTQGufoRvdagc/Qf74JGY4hhIOBdau59B7gNfPSR2WXLQCDMFl/v8y1moqWahjU4TAGwCXgXINhalweAklzd7pXrhuOLbv5r9aVWrG/pDBkyZKDJ8BfrogBT3gilcwAAAABJRU5ErkJggg==">
+                        <div class="info">
+                            <span>+20123456789</span>
+                            <span>+20198765432</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">Copyright &copy; octacy</p>
+        </div>
+        <!-- End Footer -->
+    </body>
+
+</html>
